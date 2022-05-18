@@ -38,7 +38,7 @@ def run(code):
 		elif char == '-':
 			cells[point] -= 1
 		elif char == '.':
-			print(chr(cells[point]))
+			print(chr(cells[point]), end='')
 		elif char == ',':
 			cells[point] = ord(input(f'Input for cell {point}: ')[0])
 		#if ']' found, set i to previous '['
