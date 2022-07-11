@@ -43,9 +43,9 @@ def run(code):
 			cells[point] = ord(input(f'Input for cell {point}: ')[0])
 		#if ']' found, set i to previous '['
 		elif char == ']':
-			beggining_of_loop = len(code)-code[::-1].find('[')-1
+			beginning_of_loop = len(code)-code[::-1].find('[')-1
 			if cells[point] != 0:
-				i = beggining_of_loop
+				i = beginning_of_loop
 
 		#increase i by one to get to next character
 		i+=1
