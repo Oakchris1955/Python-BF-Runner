@@ -20,7 +20,7 @@ def run(code):
 		#if nothing to read, quit
 		if i >= len(code):
 			quit()
-			#get the current character
+		#get the current character
 		char = code[i]
 		#if moved past the cells, raise an error
 		if point < 0 or point > len(cells)-1:
